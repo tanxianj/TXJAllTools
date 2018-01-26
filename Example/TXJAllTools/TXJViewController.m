@@ -7,9 +7,6 @@
 //
 
 #import "TXJViewController.h"
-//#import <TXJAllTools/B>
-#import <TXJAllTools/AllTools.h>
-
 @interface TXJViewController ()
 
 @end

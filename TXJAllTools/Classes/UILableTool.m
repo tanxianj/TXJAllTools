@@ -5,9 +5,9 @@
 //  Created by bang on 2018/1/26.
 //
 
-#import "UILable_Tool.h"
+#import "UILableTool.h"
 
-@implementation UILable_Tool
+@implementation UILableTool
 +(CGFloat )NSstringis:(NSString *)str labFontSize:(CGFloat)fontsize LabBouns:(CGSize )widthAndHeight{
     
     NSDictionary *attrs = @{NSFontAttributeName : [UIFont systemFontOfSize:fontsize]};

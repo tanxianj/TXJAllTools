@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface UILable_Tool : NSObject
+@interface UILableTool : NSObject
 /**
  传入字符串返回高度
  
