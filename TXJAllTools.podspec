@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TXJAllTools'
-  s.version          = '0.1.11'
+  s.version          = '0.1.12'
   s.summary          = 'this is TPZOther'
 
 # This description is used to generate tags and improve search results.
@@ -39,5 +39,17 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-    s.dependency 'FLEX', '~> 2.4.0'
+  # s.dependency 'FLEX', '~> 2.4.0'
+  # s.dependency 'SDCycleScrollView', '~> 1.73'
+  # s.dependency 'MJExtension', '~> 3.0.13'
+  # s.dependency 'MLTransition', '~> 2.1.3'
+  # s.dependency 'MJRefresh', '~> 3.1.12'
+  # s.dependency 'MBProgressHUD', '~> 1.0.0'
+  # s.dependency 'YJProgressHUD', '~> 1.0.4'
+  # s.dependency 'MBProgressHUD+JDragon', '~> 0.0.3'
+  # s.dependency 'FLEX', '~> 2.4.0'
+  # s.dependency 'JPFPSStatus', '~> 0.1.1'
+  # s.dependency 'Masonry'
+  # s.dependency 'TZImagePickerController', '~> 1.9.3'
+  # s.dependency 'FDFullscreenPopGesture'
 end
