@@ -16,11 +16,10 @@
  colors 颜色数组
  buttoncgsize UIButton的大小
  gradientType 渐变方向
- 返回绘制好的img
+ cornerRadius 是否设置圆角
  @param colors 颜色数组
- @param buttoncgsize UIButton的大小
  @param gradientType 渐变方向
- 
+ @param cornerRadius 是否设置圆角
  */
--(void)buttonGradient:(NSArray*)colors buttonCGSize:(CGSize )buttoncgsize ByGradientType:(TXJDirectionType)gradientType;
+-(void)buttonGradient:(NSArray *)colors buttonCGSize:(CGSize)buttonsize ByGradientType:(TXJDirectionType)gradientType cornerRadius:(BOOL)cornerRadius;
 @end

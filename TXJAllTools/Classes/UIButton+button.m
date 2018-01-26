@@ -17,9 +17,10 @@
     [btn setTitleColor:buttontitlecolor forState:UIControlStateNormal];
     return btn;
 }
--(void)buttonGradient:(NSArray *)colors buttonCGSize:(CGSize)buttonsize ByGradientType:(TXJDirectionType)gradientType{
+-(void)buttonGradient:(NSArray *)colors buttonCGSize:(CGSize)buttonsize ByGradientType:(TXJDirectionType)gradientType cornerRadius:(BOOL)cornerRadius{
     
     [self setBackgroundImage:[ButtonTool buttonImageFromColors:colors buttonCGSize:buttonsize ByGradientType:gradientType] forState:UIControlStateNormal];
-
+    self.layer.cornerRadius = self.bounds.size.height/2;
+    self.layer.masksToBounds = cornerRadius;
 }
 @end

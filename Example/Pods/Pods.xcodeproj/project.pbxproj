@@ -141,6 +141,7 @@
 		368347F9201AFA810058C7B4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				36834813201B0B820058C7B4 /* AllTools.h */,
 				36834802201B04240058C7B4 /* ButtonTool.h */,
 				36834801201B04230058C7B4 /* ButtonTool.m */,
 				3683480B201B04480058C7B4 /* UILable_Tool.h */,
@@ -150,7 +151,6 @@
 				36834804201B04240058C7B4 /* UILabel+NewLab.h */,
 				36834803201B04240058C7B4 /* UILabel+NewLab.m */,
 				368347FA201AFA810058C7B4 /* .gitkeep */,
-				36834813201B0B820058C7B4 /* AllTools.h */,
 			);
 			name = Classes;
 			path = TXJAllTools/Classes;
