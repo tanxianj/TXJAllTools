@@ -7,6 +7,8 @@
 
 #ifndef AllTools_h
 #define AllTools_h
+#import "ButtonTool.h"
 #import "UIButton+button.h"
-
+#import "UILable_Tool.h"
+#import "UILabel+NewLab.h"
 #endif /* AllTools_h */
