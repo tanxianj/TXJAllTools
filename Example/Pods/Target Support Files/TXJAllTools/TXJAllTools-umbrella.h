@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "AllTools.h"
+#import "ButtonTool.h"
+#import "UIButton+button.h"
+#import "UILabel+NewLab.h"
+#import "UILable_Tool.h"
 
 FOUNDATION_EXPORT double TXJAllToolsVersionNumber;
 FOUNDATION_EXPORT const unsigned char TXJAllToolsVersionString[];
