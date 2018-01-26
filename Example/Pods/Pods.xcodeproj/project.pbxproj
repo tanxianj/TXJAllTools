@@ -12,7 +12,8 @@
 		1E3F0521E8DE05EE5E575E1DDE7E08EB /* Pods-TXJAllTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 373711300DC7FA70FA0738E5ED26381D /* Pods-TXJAllTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CF8E2B7F9ADDF7F35428794CF5141CC /* TXJAllTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CEA3BC3B0388F8408C8A63599687D6 /* TXJAllTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34ECEA031DAA76F8768BDC50F7BFD898 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		416071F2AE725ACA3945203660AFEC4E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CDC418B0B9F0FF8E689A8024F2D5ED /* ReplaceMe.m */; };
+		368347FD201AFA8C0058C7B4 /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = 368347FB201AFA8C0058C7B4 /* Test.h */; };
+		368347FE201AFA8C0058C7B4 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 368347FC201AFA8C0058C7B4 /* Test.m */; };
 		4769BBE1054A8D99710EF131E470E995 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		DEF08CEDE1B7A637561AC8291D9135B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		F565D51441E5C09DECDFBE37EBD2989C /* TXJAllTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B59EB8CE3451FE36AD6B1AF54227A77E /* TXJAllTools-dummy.m */; };
@@ -35,32 +36,35 @@
 		1726D1442037DDA0E72D064A9A124BC5 /* Pods-TXJAllTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TXJAllTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1DD334FDEA4B561906397348B979CD12 /* Pods-TXJAllTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TXJAllTools_Example-dummy.m"; sourceTree = "<group>"; };
 		325B49C4EC09756FEB50C5A5E3ADA787 /* TXJAllTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TXJAllTools.xcconfig; sourceTree = "<group>"; };
+		368347F8201AFA810058C7B4 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		368347FA201AFA810058C7B4 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		368347FB201AFA8C0058C7B4 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		368347FC201AFA8C0058C7B4 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 		373711300DC7FA70FA0738E5ED26381D /* Pods-TXJAllTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TXJAllTools_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3FCF4F2E30B1599326D6957481A6B0D0 /* Pods-TXJAllTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TXJAllTools_Tests.modulemap"; sourceTree = "<group>"; };
+		3FCF4F2E30B1599326D6957481A6B0D0 /* Pods-TXJAllTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TXJAllTools_Tests.modulemap"; sourceTree = "<group>"; };
 		446631D325A26B609A076011FFEB91D8 /* TXJAllTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TXJAllTools-prefix.pch"; sourceTree = "<group>"; };
-		44CDC418B0B9F0FF8E689A8024F2D5ED /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TXJAllTools/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		459DE5FEA5560DB5EEC1455C7E643574 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		468777FDA73EF62C5338C06F58D2895D /* Pods-TXJAllTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXJAllTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		542C91D7444B18BD3A9452446F428129 /* Pods-TXJAllTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TXJAllTools_Example-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7C5D4382DE63F13A96120490A918CAE9 /* Pods-TXJAllTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TXJAllTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7F9FA6AB14EF034B50665F07641B96D7 /* Pods-TXJAllTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TXJAllTools_Example.modulemap"; sourceTree = "<group>"; };
+		7F9FA6AB14EF034B50665F07641B96D7 /* Pods-TXJAllTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TXJAllTools_Example.modulemap"; sourceTree = "<group>"; };
 		8D2219F7DA912BADB154B03653D8446C /* Pods-TXJAllTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXJAllTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		92C3A5C74F4B4081914DA9BE50A700B0 /* Pods-TXJAllTools_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TXJAllTools_Tests-resources.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93D0A1A00FC064E4457735AD5D68CD1B /* Pods-TXJAllTools_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TXJAllTools_Example-resources.sh"; sourceTree = "<group>"; };
 		9798FC3FB21B106A59D4632831DD6AFC /* Pods-TXJAllTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TXJAllTools_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9BFFEE039F6FA2F54E746C2381535045 /* Pods_TXJAllTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TXJAllTools_Tests.framework; path = "Pods-TXJAllTools_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA4C8AB6635C82F899DB99B26FEFC9F1 /* TXJAllTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TXJAllTools.framework; path = TXJAllTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BFFEE039F6FA2F54E746C2381535045 /* Pods_TXJAllTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TXJAllTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA4C8AB6635C82F899DB99B26FEFC9F1 /* TXJAllTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TXJAllTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B59EB8CE3451FE36AD6B1AF54227A77E /* TXJAllTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TXJAllTools-dummy.m"; sourceTree = "<group>"; };
 		C79C26957F9D7E67F48DCB9B78B07E00 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA46196F5C728DF75EE9D7D2105051F5 /* Pods-TXJAllTools_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TXJAllTools_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		CCD7AE9516D1956DB215B24CB6C84E64 /* Pods-TXJAllTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TXJAllTools_Tests-dummy.m"; sourceTree = "<group>"; };
-		D5803CC10CDAB6F762D57F7F6859E25D /* Pods_TXJAllTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TXJAllTools_Example.framework; path = "Pods-TXJAllTools_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5803CC10CDAB6F762D57F7F6859E25D /* Pods_TXJAllTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TXJAllTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA47B806A1892C900436A35D97ACBB3A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC26EFF99B30FF7F432F374309A1D99D /* Pods-TXJAllTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TXJAllTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E479270BE464C3E3743186074FD8666A /* Pods-TXJAllTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXJAllTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EFCB2AC7E5C215F441676469D3A93B48 /* TXJAllTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TXJAllTools.modulemap; sourceTree = "<group>"; };
+		EFCB2AC7E5C215F441676469D3A93B48 /* TXJAllTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TXJAllTools.modulemap; sourceTree = "<group>"; };
 		F2CEA3BC3B0388F8408C8A63599687D6 /* TXJAllTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TXJAllTools-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +113,26 @@
 				AA4C8AB6635C82F899DB99B26FEFC9F1 /* TXJAllTools.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		368347F7201AFA810058C7B4 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				368347F8201AFA810058C7B4 /* .gitkeep */,
+			);
+			name = Assets;
+			path = TXJAllTools/Assets;
+			sourceTree = "<group>";
+		};
+		368347F9201AFA810058C7B4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				368347FA201AFA810058C7B4 /* .gitkeep */,
+				368347FB201AFA8C0058C7B4 /* Test.h */,
+				368347FC201AFA8C0058C7B4 /* Test.m */,
+			);
+			name = Classes;
+			path = TXJAllTools/Classes;
 			sourceTree = "<group>";
 		};
 		3BAEFC6329FDE5A9591953405A8735C2 /* Pods-TXJAllTools_Tests */ = {
@@ -169,7 +193,8 @@
 		BE7FCA79297E91E78DF9D15F916AD123 /* TXJAllTools */ = {
 			isa = PBXGroup;
 			children = (
-				44CDC418B0B9F0FF8E689A8024F2D5ED /* ReplaceMe.m */,
+				368347F7201AFA810058C7B4 /* Assets */,
+				368347F9201AFA810058C7B4 /* Classes */,
 				F6F4D3F22D159C5563580760AE49F8BA /* Support Files */,
 			);
 			name = TXJAllTools;
@@ -229,6 +254,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				368347FD201AFA8C0058C7B4 /* Test.h in Headers */,
 				FAE6C0CD0640F14E0944B6B59558F7EE /* Pods-TXJAllTools_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0203B5473968FB0C9BB5055AE1A39FEB /* Pods-TXJAllTools_Example-dummy.m in Sources */,
+				368347FE201AFA8C0058C7B4 /* Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +364,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				416071F2AE725ACA3945203660AFEC4E /* ReplaceMe.m in Sources */,
 				F565D51441E5C09DECDFBE37EBD2989C /* TXJAllTools-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
