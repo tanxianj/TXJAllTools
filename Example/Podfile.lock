@@ -1,0 +1,16 @@
+PODS:
+  - TXJAllTools (0.1.0)
+
+DEPENDENCIES:
+  - TXJAllTools (from `../`)
+
+EXTERNAL SOURCES:
+  TXJAllTools:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TXJAllTools: 82861da158dd4b8a262592ea6b041f4db220afdd
+
+PODFILE CHECKSUM: 4588837c888e9eac57e9d33efe737eb49d9713f1
+
+COCOAPODS: 1.3.1

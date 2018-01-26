@@ -1,0 +1,6 @@
+framework module TXJAllTools {
+  umbrella header "TXJAllTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

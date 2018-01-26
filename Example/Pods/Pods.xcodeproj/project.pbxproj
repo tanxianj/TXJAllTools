@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0061959D9893A7E613FE509C7DCA4458 /* Pods-TXJAllTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD7AE9516D1956DB215B24CB6C84E64 /* Pods-TXJAllTools_Tests-dummy.m */; };
+		0203B5473968FB0C9BB5055AE1A39FEB /* Pods-TXJAllTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD334FDEA4B561906397348B979CD12 /* Pods-TXJAllTools_Example-dummy.m */; };
+		1E3F0521E8DE05EE5E575E1DDE7E08EB /* Pods-TXJAllTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 373711300DC7FA70FA0738E5ED26381D /* Pods-TXJAllTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CF8E2B7F9ADDF7F35428794CF5141CC /* TXJAllTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CEA3BC3B0388F8408C8A63599687D6 /* TXJAllTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34ECEA031DAA76F8768BDC50F7BFD898 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		416071F2AE725ACA3945203660AFEC4E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CDC418B0B9F0FF8E689A8024F2D5ED /* ReplaceMe.m */; };
+		4769BBE1054A8D99710EF131E470E995 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		DEF08CEDE1B7A637561AC8291D9135B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F565D51441E5C09DECDFBE37EBD2989C /* TXJAllTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B59EB8CE3451FE36AD6B1AF54227A77E /* TXJAllTools-dummy.m */; };
+		FAE6C0CD0640F14E0944B6B59558F7EE /* Pods-TXJAllTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 542C91D7444B18BD3A9452446F428129 /* Pods-TXJAllTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2D6BD8282EADF0647AAF3FAF2C2FA47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FE6CFFF6AC01D5E337014B77F6121B1;
+			remoteInfo = TXJAllTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0465517C6AD0A9831C485FF153F6A0EE /* Pods-TXJAllTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXJAllTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0D75063FA78DAE328D1889FB9BCC1257 /* Pods-TXJAllTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TXJAllTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1726D1442037DDA0E72D064A9A124BC5 /* Pods-TXJAllTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TXJAllTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1DD334FDEA4B561906397348B979CD12 /* Pods-TXJAllTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TXJAllTools_Example-dummy.m"; sourceTree = "<group>"; };
+		325B49C4EC09756FEB50C5A5E3ADA787 /* TXJAllTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TXJAllTools.xcconfig; sourceTree = "<group>"; };
+		373711300DC7FA70FA0738E5ED26381D /* Pods-TXJAllTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TXJAllTools_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3FCF4F2E30B1599326D6957481A6B0D0 /* Pods-TXJAllTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TXJAllTools_Tests.modulemap"; sourceTree = "<group>"; };
+		446631D325A26B609A076011FFEB91D8 /* TXJAllTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TXJAllTools-prefix.pch"; sourceTree = "<group>"; };
+		44CDC418B0B9F0FF8E689A8024F2D5ED /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TXJAllTools/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		459DE5FEA5560DB5EEC1455C7E643574 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		468777FDA73EF62C5338C06F58D2895D /* Pods-TXJAllTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXJAllTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		542C91D7444B18BD3A9452446F428129 /* Pods-TXJAllTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TXJAllTools_Example-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7C5D4382DE63F13A96120490A918CAE9 /* Pods-TXJAllTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TXJAllTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7F9FA6AB14EF034B50665F07641B96D7 /* Pods-TXJAllTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TXJAllTools_Example.modulemap"; sourceTree = "<group>"; };
+		8D2219F7DA912BADB154B03653D8446C /* Pods-TXJAllTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXJAllTools_Example.release.xcconfig"; sourceTree = "<group>"; };
+		92C3A5C74F4B4081914DA9BE50A700B0 /* Pods-TXJAllTools_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TXJAllTools_Tests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93D0A1A00FC064E4457735AD5D68CD1B /* Pods-TXJAllTools_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TXJAllTools_Example-resources.sh"; sourceTree = "<group>"; };
+		9798FC3FB21B106A59D4632831DD6AFC /* Pods-TXJAllTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TXJAllTools_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9BFFEE039F6FA2F54E746C2381535045 /* Pods_TXJAllTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TXJAllTools_Tests.framework; path = "Pods-TXJAllTools_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA4C8AB6635C82F899DB99B26FEFC9F1 /* TXJAllTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TXJAllTools.framework; path = TXJAllTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59EB8CE3451FE36AD6B1AF54227A77E /* TXJAllTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TXJAllTools-dummy.m"; sourceTree = "<group>"; };
+		C79C26957F9D7E67F48DCB9B78B07E00 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA46196F5C728DF75EE9D7D2105051F5 /* Pods-TXJAllTools_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TXJAllTools_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CCD7AE9516D1956DB215B24CB6C84E64 /* Pods-TXJAllTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TXJAllTools_Tests-dummy.m"; sourceTree = "<group>"; };
+		D5803CC10CDAB6F762D57F7F6859E25D /* Pods_TXJAllTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TXJAllTools_Example.framework; path = "Pods-TXJAllTools_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA47B806A1892C900436A35D97ACBB3A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC26EFF99B30FF7F432F374309A1D99D /* Pods-TXJAllTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TXJAllTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E479270BE464C3E3743186074FD8666A /* Pods-TXJAllTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TXJAllTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFCB2AC7E5C215F441676469D3A93B48 /* TXJAllTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TXJAllTools.modulemap; sourceTree = "<group>"; };
+		F2CEA3BC3B0388F8408C8A63599687D6 /* TXJAllTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TXJAllTools-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1267CBF5753D7A3CACFFB7230F614772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF08CEDE1B7A637561AC8291D9135B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56781AD03E85042EF967864ADA0D0E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4769BBE1054A8D99710EF131E470E995 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E035FE9C026E8AC7C8400B0AA72D6770 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34ECEA031DAA76F8768BDC50F7BFD898 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C3C58DBD268B27A93FCF019184E0348 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A9439DEF1C2727783453AA2DD9228D6 /* Pods-TXJAllTools_Example */,
+				3BAEFC6329FDE5A9591953405A8735C2 /* Pods-TXJAllTools_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		31FDA0D9350AEE11963A45640BC597C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5803CC10CDAB6F762D57F7F6859E25D /* Pods_TXJAllTools_Example.framework */,
+				9BFFEE039F6FA2F54E746C2381535045 /* Pods_TXJAllTools_Tests.framework */,
+				AA4C8AB6635C82F899DB99B26FEFC9F1 /* TXJAllTools.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BAEFC6329FDE5A9591953405A8735C2 /* Pods-TXJAllTools_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C79C26957F9D7E67F48DCB9B78B07E00 /* Info.plist */,
+				3FCF4F2E30B1599326D6957481A6B0D0 /* Pods-TXJAllTools_Tests.modulemap */,
+				0D75063FA78DAE328D1889FB9BCC1257 /* Pods-TXJAllTools_Tests-acknowledgements.markdown */,
+				DC26EFF99B30FF7F432F374309A1D99D /* Pods-TXJAllTools_Tests-acknowledgements.plist */,
+				CCD7AE9516D1956DB215B24CB6C84E64 /* Pods-TXJAllTools_Tests-dummy.m */,
+				CA46196F5C728DF75EE9D7D2105051F5 /* Pods-TXJAllTools_Tests-frameworks.sh */,
+				92C3A5C74F4B4081914DA9BE50A700B0 /* Pods-TXJAllTools_Tests-resources.sh */,
+				373711300DC7FA70FA0738E5ED26381D /* Pods-TXJAllTools_Tests-umbrella.h */,
+				E479270BE464C3E3743186074FD8666A /* Pods-TXJAllTools_Tests.debug.xcconfig */,
+				468777FDA73EF62C5338C06F58D2895D /* Pods-TXJAllTools_Tests.release.xcconfig */,
+			);
+			name = "Pods-TXJAllTools_Tests";
+			path = "Target Support Files/Pods-TXJAllTools_Tests";
+			sourceTree = "<group>";
+		};
+		7A9439DEF1C2727783453AA2DD9228D6 /* Pods-TXJAllTools_Example */ = {
+			isa = PBXGroup;
+			children = (
+				459DE5FEA5560DB5EEC1455C7E643574 /* Info.plist */,
+				7F9FA6AB14EF034B50665F07641B96D7 /* Pods-TXJAllTools_Example.modulemap */,
+				7C5D4382DE63F13A96120490A918CAE9 /* Pods-TXJAllTools_Example-acknowledgements.markdown */,
+				1726D1442037DDA0E72D064A9A124BC5 /* Pods-TXJAllTools_Example-acknowledgements.plist */,
+				1DD334FDEA4B561906397348B979CD12 /* Pods-TXJAllTools_Example-dummy.m */,
+				9798FC3FB21B106A59D4632831DD6AFC /* Pods-TXJAllTools_Example-frameworks.sh */,
+				93D0A1A00FC064E4457735AD5D68CD1B /* Pods-TXJAllTools_Example-resources.sh */,
+				542C91D7444B18BD3A9452446F428129 /* Pods-TXJAllTools_Example-umbrella.h */,
+				0465517C6AD0A9831C485FF153F6A0EE /* Pods-TXJAllTools_Example.debug.xcconfig */,
+				8D2219F7DA912BADB154B03653D8446C /* Pods-TXJAllTools_Example.release.xcconfig */,
+			);
+			name = "Pods-TXJAllTools_Example";
+			path = "Target Support Files/Pods-TXJAllTools_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F8B89C355ED51DDE6610BA4C6C20DB33 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				31FDA0D9350AEE11963A45640BC597C5 /* Products */,
+				0C3C58DBD268B27A93FCF019184E0348 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE7FCA79297E91E78DF9D15F916AD123 /* TXJAllTools */ = {
+			isa = PBXGroup;
+			children = (
+				44CDC418B0B9F0FF8E689A8024F2D5ED /* ReplaceMe.m */,
+				F6F4D3F22D159C5563580760AE49F8BA /* Support Files */,
+			);
+			name = TXJAllTools;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F6F4D3F22D159C5563580760AE49F8BA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA47B806A1892C900436A35D97ACBB3A /* Info.plist */,
+				EFCB2AC7E5C215F441676469D3A93B48 /* TXJAllTools.modulemap */,
+				325B49C4EC09756FEB50C5A5E3ADA787 /* TXJAllTools.xcconfig */,
+				B59EB8CE3451FE36AD6B1AF54227A77E /* TXJAllTools-dummy.m */,
+				446631D325A26B609A076011FFEB91D8 /* TXJAllTools-prefix.pch */,
+				F2CEA3BC3B0388F8408C8A63599687D6 /* TXJAllTools-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TXJAllTools";
+			sourceTree = "<group>";
+		};
+		F8B89C355ED51DDE6610BA4C6C20DB33 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE7FCA79297E91E78DF9D15F916AD123 /* TXJAllTools */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6606F783E4BFC2937532460499C43339 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF8E2B7F9ADDF7F35428794CF5141CC /* TXJAllTools-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		952165B1AD85B803C15B55551AD3EB74 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E3F0521E8DE05EE5E575E1DDE7E08EB /* Pods-TXJAllTools_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0D439EDB40F3A67B3B6E4E9C97E42E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE6C0CD0640F14E0944B6B59558F7EE /* Pods-TXJAllTools_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4FE6CFFF6AC01D5E337014B77F6121B1 /* TXJAllTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C115BEA08FC0D2D3B59CEC1C2AFD89D /* Build configuration list for PBXNativeTarget "TXJAllTools" */;
+			buildPhases = (
+				C631AABB93AE1317DA6F79E2A9752050 /* Sources */,
+				1267CBF5753D7A3CACFFB7230F614772 /* Frameworks */,
+				6606F783E4BFC2937532460499C43339 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TXJAllTools;
+			productName = TXJAllTools;
+			productReference = AA4C8AB6635C82F899DB99B26FEFC9F1 /* TXJAllTools.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B00731896E20DFD3C578D64063F2EE68 /* Pods-TXJAllTools_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DD219FEBAEFFC06A838A39C3A82282F /* Build configuration list for PBXNativeTarget "Pods-TXJAllTools_Tests" */;
+			buildPhases = (
+				2FDA41F1F1B40BBC264AB5A7F93557F0 /* Sources */,
+				C56781AD03E85042EF967864ADA0D0E9 /* Frameworks */,
+				952165B1AD85B803C15B55551AD3EB74 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TXJAllTools_Tests";
+			productName = "Pods-TXJAllTools_Tests";
+			productReference = 9BFFEE039F6FA2F54E746C2381535045 /* Pods_TXJAllTools_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D82DAF975BB9E06F53E254FFEC392D4B /* Pods-TXJAllTools_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F87949D194FF8756BFE221375421B84 /* Build configuration list for PBXNativeTarget "Pods-TXJAllTools_Example" */;
+			buildPhases = (
+				420455F5F1E495D403B7EB9197E97D40 /* Sources */,
+				E035FE9C026E8AC7C8400B0AA72D6770 /* Frameworks */,
+				ED0D439EDB40F3A67B3B6E4E9C97E42E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61414CACD2432996F6AA03F63BABEAE4 /* PBXTargetDependency */,
+			);
+			name = "Pods-TXJAllTools_Example";
+			productName = "Pods-TXJAllTools_Example";
+			productReference = D5803CC10CDAB6F762D57F7F6859E25D /* Pods_TXJAllTools_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 31FDA0D9350AEE11963A45640BC597C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D82DAF975BB9E06F53E254FFEC392D4B /* Pods-TXJAllTools_Example */,
+				B00731896E20DFD3C578D64063F2EE68 /* Pods-TXJAllTools_Tests */,
+				4FE6CFFF6AC01D5E337014B77F6121B1 /* TXJAllTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FDA41F1F1B40BBC264AB5A7F93557F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0061959D9893A7E613FE509C7DCA4458 /* Pods-TXJAllTools_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		420455F5F1E495D403B7EB9197E97D40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0203B5473968FB0C9BB5055AE1A39FEB /* Pods-TXJAllTools_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C631AABB93AE1317DA6F79E2A9752050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416071F2AE725ACA3945203660AFEC4E /* ReplaceMe.m in Sources */,
+				F565D51441E5C09DECDFBE37EBD2989C /* TXJAllTools-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61414CACD2432996F6AA03F63BABEAE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TXJAllTools;
+			target = 4FE6CFFF6AC01D5E337014B77F6121B1 /* TXJAllTools */;
+			targetProxy = A2D6BD8282EADF0647AAF3FAF2C2FA47 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		497FC6A808A854D5AE5C5EF81D14C5E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E479270BE464C3E3743186074FD8666A /* Pods-TXJAllTools_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TXJAllTools_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TXJAllTools_Tests/Pods-TXJAllTools_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TXJAllTools_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		94516BD3BD091DA8CB38A3C064755BBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 325B49C4EC09756FEB50C5A5E3ADA787 /* TXJAllTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TXJAllTools/TXJAllTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TXJAllTools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TXJAllTools/TXJAllTools.modulemap";
+				PRODUCT_NAME = TXJAllTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9FD9B153444E59ACD56771F4C4A4F28B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0465517C6AD0A9831C485FF153F6A0EE /* Pods-TXJAllTools_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TXJAllTools_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TXJAllTools_Example/Pods-TXJAllTools_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TXJAllTools_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C94E6BF93C66F155AE5B1E68D53B47C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D2219F7DA912BADB154B03653D8446C /* Pods-TXJAllTools_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TXJAllTools_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TXJAllTools_Example/Pods-TXJAllTools_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TXJAllTools_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CB7ABF16A602A02BEF806BE2CF2B5ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 468777FDA73EF62C5338C06F58D2895D /* Pods-TXJAllTools_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TXJAllTools_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TXJAllTools_Tests/Pods-TXJAllTools_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TXJAllTools_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC4D6DBD6D7ACAF35D973AC18078D75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 325B49C4EC09756FEB50C5A5E3ADA787 /* TXJAllTools.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TXJAllTools/TXJAllTools-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TXJAllTools/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TXJAllTools/TXJAllTools.modulemap";
+				PRODUCT_NAME = TXJAllTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C115BEA08FC0D2D3B59CEC1C2AFD89D /* Build configuration list for PBXNativeTarget "TXJAllTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4D6DBD6D7ACAF35D973AC18078D75A /* Debug */,
+				94516BD3BD091DA8CB38A3C064755BBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F87949D194FF8756BFE221375421B84 /* Build configuration list for PBXNativeTarget "Pods-TXJAllTools_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FD9B153444E59ACD56771F4C4A4F28B /* Debug */,
+				C94E6BF93C66F155AE5B1E68D53B47C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DD219FEBAEFFC06A838A39C3A82282F /* Build configuration list for PBXNativeTarget "Pods-TXJAllTools_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				497FC6A808A854D5AE5C5EF81D14C5E2 /* Debug */,
+				CB7ABF16A602A02BEF806BE2CF2B5ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
