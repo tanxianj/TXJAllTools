@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TXJAllTools_Example' do
+  pod 'TXJAllTools', :path => '../'
+
+  target 'TXJAllTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
