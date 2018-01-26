@@ -12,8 +12,14 @@
 		1E3F0521E8DE05EE5E575E1DDE7E08EB /* Pods-TXJAllTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 373711300DC7FA70FA0738E5ED26381D /* Pods-TXJAllTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CF8E2B7F9ADDF7F35428794CF5141CC /* TXJAllTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2CEA3BC3B0388F8408C8A63599687D6 /* TXJAllTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34ECEA031DAA76F8768BDC50F7BFD898 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		368347FD201AFA8C0058C7B4 /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = 368347FB201AFA8C0058C7B4 /* Test.h */; };
-		368347FE201AFA8C0058C7B4 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 368347FC201AFA8C0058C7B4 /* Test.m */; };
+		36834805201B04240058C7B4 /* UIButton+button.m in Sources */ = {isa = PBXBuildFile; fileRef = 368347FF201B04230058C7B4 /* UIButton+button.m */; };
+		36834806201B04240058C7B4 /* UIButton+button.h in Headers */ = {isa = PBXBuildFile; fileRef = 36834800201B04230058C7B4 /* UIButton+button.h */; };
+		36834807201B04240058C7B4 /* ButtonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 36834801201B04230058C7B4 /* ButtonTool.m */; };
+		36834808201B04240058C7B4 /* ButtonTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 36834802201B04240058C7B4 /* ButtonTool.h */; };
+		36834809201B04240058C7B4 /* UILabel+NewLab.m in Sources */ = {isa = PBXBuildFile; fileRef = 36834803201B04240058C7B4 /* UILabel+NewLab.m */; };
+		3683480A201B04240058C7B4 /* UILabel+NewLab.h in Headers */ = {isa = PBXBuildFile; fileRef = 36834804201B04240058C7B4 /* UILabel+NewLab.h */; };
+		3683480D201B04480058C7B4 /* UILable_Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = 3683480B201B04480058C7B4 /* UILable_Tool.h */; };
+		3683480E201B04480058C7B4 /* UILable_Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3683480C201B04480058C7B4 /* UILable_Tool.m */; };
 		4769BBE1054A8D99710EF131E470E995 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		DEF08CEDE1B7A637561AC8291D9135B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		F565D51441E5C09DECDFBE37EBD2989C /* TXJAllTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B59EB8CE3451FE36AD6B1AF54227A77E /* TXJAllTools-dummy.m */; };
@@ -38,8 +44,14 @@
 		325B49C4EC09756FEB50C5A5E3ADA787 /* TXJAllTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TXJAllTools.xcconfig; sourceTree = "<group>"; };
 		368347F8201AFA810058C7B4 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		368347FA201AFA810058C7B4 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		368347FB201AFA8C0058C7B4 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
-		368347FC201AFA8C0058C7B4 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		368347FF201B04230058C7B4 /* UIButton+button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+button.m"; sourceTree = "<group>"; };
+		36834800201B04230058C7B4 /* UIButton+button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+button.h"; sourceTree = "<group>"; };
+		36834801201B04230058C7B4 /* ButtonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonTool.m; sourceTree = "<group>"; };
+		36834802201B04240058C7B4 /* ButtonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonTool.h; sourceTree = "<group>"; };
+		36834803201B04240058C7B4 /* UILabel+NewLab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+NewLab.m"; sourceTree = "<group>"; };
+		36834804201B04240058C7B4 /* UILabel+NewLab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+NewLab.h"; sourceTree = "<group>"; };
+		3683480B201B04480058C7B4 /* UILable_Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UILable_Tool.h; sourceTree = "<group>"; };
+		3683480C201B04480058C7B4 /* UILable_Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UILable_Tool.m; sourceTree = "<group>"; };
 		373711300DC7FA70FA0738E5ED26381D /* Pods-TXJAllTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TXJAllTools_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3FCF4F2E30B1599326D6957481A6B0D0 /* Pods-TXJAllTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TXJAllTools_Tests.modulemap"; sourceTree = "<group>"; };
 		446631D325A26B609A076011FFEB91D8 /* TXJAllTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TXJAllTools-prefix.pch"; sourceTree = "<group>"; };
@@ -127,9 +139,15 @@
 		368347F9201AFA810058C7B4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				36834802201B04240058C7B4 /* ButtonTool.h */,
+				36834801201B04230058C7B4 /* ButtonTool.m */,
+				3683480B201B04480058C7B4 /* UILable_Tool.h */,
+				3683480C201B04480058C7B4 /* UILable_Tool.m */,
+				36834800201B04230058C7B4 /* UIButton+button.h */,
+				368347FF201B04230058C7B4 /* UIButton+button.m */,
+				36834804201B04240058C7B4 /* UILabel+NewLab.h */,
+				36834803201B04240058C7B4 /* UILabel+NewLab.m */,
 				368347FA201AFA810058C7B4 /* .gitkeep */,
-				368347FB201AFA8C0058C7B4 /* Test.h */,
-				368347FC201AFA8C0058C7B4 /* Test.m */,
 			);
 			name = Classes;
 			path = TXJAllTools/Classes;
@@ -238,6 +256,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3683480A201B04240058C7B4 /* UILabel+NewLab.h in Headers */,
+				36834808201B04240058C7B4 /* ButtonTool.h in Headers */,
+				36834806201B04240058C7B4 /* UIButton+button.h in Headers */,
+				3683480D201B04480058C7B4 /* UILable_Tool.h in Headers */,
 				2CF8E2B7F9ADDF7F35428794CF5141CC /* TXJAllTools-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,7 +276,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				368347FD201AFA8C0058C7B4 /* Test.h in Headers */,
 				FAE6C0CD0640F14E0944B6B59558F7EE /* Pods-TXJAllTools_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,7 +377,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0203B5473968FB0C9BB5055AE1A39FEB /* Pods-TXJAllTools_Example-dummy.m in Sources */,
-				368347FE201AFA8C0058C7B4 /* Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,6 +385,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F565D51441E5C09DECDFBE37EBD2989C /* TXJAllTools-dummy.m in Sources */,
+				36834809201B04240058C7B4 /* UILabel+NewLab.m in Sources */,
+				36834807201B04240058C7B4 /* ButtonTool.m in Sources */,
+				3683480E201B04480058C7B4 /* UILable_Tool.m in Sources */,
+				36834805201B04240058C7B4 /* UIButton+button.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
