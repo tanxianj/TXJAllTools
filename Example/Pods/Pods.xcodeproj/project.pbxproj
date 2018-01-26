@@ -20,6 +20,7 @@
 		3683480A201B04240058C7B4 /* UILabel+NewLab.h in Headers */ = {isa = PBXBuildFile; fileRef = 36834804201B04240058C7B4 /* UILabel+NewLab.h */; };
 		3683480D201B04480058C7B4 /* UILable_Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = 3683480B201B04480058C7B4 /* UILable_Tool.h */; };
 		3683480E201B04480058C7B4 /* UILable_Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3683480C201B04480058C7B4 /* UILable_Tool.m */; };
+		36834814201B0B820058C7B4 /* AllTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 36834813201B0B820058C7B4 /* AllTools.h */; };
 		4769BBE1054A8D99710EF131E470E995 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		DEF08CEDE1B7A637561AC8291D9135B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		F565D51441E5C09DECDFBE37EBD2989C /* TXJAllTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B59EB8CE3451FE36AD6B1AF54227A77E /* TXJAllTools-dummy.m */; };
@@ -52,6 +53,7 @@
 		36834804201B04240058C7B4 /* UILabel+NewLab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+NewLab.h"; sourceTree = "<group>"; };
 		3683480B201B04480058C7B4 /* UILable_Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UILable_Tool.h; sourceTree = "<group>"; };
 		3683480C201B04480058C7B4 /* UILable_Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UILable_Tool.m; sourceTree = "<group>"; };
+		36834813201B0B820058C7B4 /* AllTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllTools.h; sourceTree = "<group>"; };
 		373711300DC7FA70FA0738E5ED26381D /* Pods-TXJAllTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TXJAllTools_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3FCF4F2E30B1599326D6957481A6B0D0 /* Pods-TXJAllTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TXJAllTools_Tests.modulemap"; sourceTree = "<group>"; };
 		446631D325A26B609A076011FFEB91D8 /* TXJAllTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TXJAllTools-prefix.pch"; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				36834804201B04240058C7B4 /* UILabel+NewLab.h */,
 				36834803201B04240058C7B4 /* UILabel+NewLab.m */,
 				368347FA201AFA810058C7B4 /* .gitkeep */,
+				36834813201B0B820058C7B4 /* AllTools.h */,
 			);
 			name = Classes;
 			path = TXJAllTools/Classes;
@@ -260,6 +263,7 @@
 				36834808201B04240058C7B4 /* ButtonTool.h in Headers */,
 				36834806201B04240058C7B4 /* UIButton+button.h in Headers */,
 				3683480D201B04480058C7B4 /* UILable_Tool.h in Headers */,
+				36834814201B0B820058C7B4 /* AllTools.h in Headers */,
 				2CF8E2B7F9ADDF7F35428794CF5141CC /* TXJAllTools-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
