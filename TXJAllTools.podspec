@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TXJAllTools'
-  s.version          = '0.1.12'
+  s.version          = '0.1.13'
   s.summary          = 'this is TPZOther'
 
 # This description is used to generate tags and improve search results.
