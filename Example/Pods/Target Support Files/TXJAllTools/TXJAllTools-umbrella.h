@@ -15,7 +15,7 @@
 #import "UIButton+button.h"
 #import "UILabel+NewLab.h"
 #import "UILableTool.h"
-
+#import "UIColor+Hex.h"
 FOUNDATION_EXPORT double TXJAllToolsVersionNumber;
 FOUNDATION_EXPORT const unsigned char TXJAllToolsVersionString[];
 

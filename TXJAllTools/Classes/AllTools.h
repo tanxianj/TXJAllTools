@@ -11,5 +11,6 @@
 #import "UIButton+button.h"
 #import "UILableTool.h"
 #import "UILabel+NewLab.h"
+#import "UIColor+Hex.h"
 #endif /* AllTools_h */
 
