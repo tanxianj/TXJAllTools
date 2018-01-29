@@ -17,7 +17,7 @@
  HEX
 
  @param stringToConvert 0x000000
- @return UIColor
+ @return UIColor 颜色
  */
 + (UIColor *)colorWithHexString:(NSString *)stringToConvert;
 
@@ -26,8 +26,8 @@
  传入#AABBCC
 
  @param stringToConvert 0xFFFFFF
- @param alpha
- @return UIColor
+ @param alpha 0-1
+ @return UIColor 颜色
  */
 + (UIColor *)colorWithHexString:(NSString *)stringToConvert andAlpha:(CGFloat)alpha;
 
