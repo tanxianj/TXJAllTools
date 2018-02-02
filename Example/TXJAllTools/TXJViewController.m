@@ -8,7 +8,7 @@
 
 #import "TXJViewController.h"
 #import <TXJAllTools/AllTools.h>
-
+#import <TXJAllTools/TXJAllTools-umbrella.h>
 @interface TXJViewController (){
     
 }

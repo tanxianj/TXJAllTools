@@ -15,6 +15,8 @@
 //#import "ZJImageMagnification.h"
 #import "ViewRadioTool.h"
 #import "SFLabel.h"
-
+#import "NSArray+ZXPUnicode.h"
+#import "NSDictionary+ZXPUnicode.h"
+#import "NSObject+ZXPUnicode.h"
 #endif /* AllTools_h */
 
