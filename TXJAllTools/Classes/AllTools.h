@@ -12,7 +12,7 @@
 #import "UILableTool.h"
 #import "UILabel+NewLab.h"
 #import "UIColor+Hex.h"
-#import "ZJImageMagnification.h"
+//#import "ZJImageMagnification.h"
 #import "ViewRadioTool.h"
 #import "SFLabel.h"
 #endif /* AllTools_h */

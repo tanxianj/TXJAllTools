@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		007B1FD813D4DC3C7EE23987 /* Pods_TXJAllTools_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBB36E6E65E5ADFF7BCFF89 /* Pods_TXJAllTools_Example.framework */; };
+		36841F2A202431E100874413 /* NSMutableAttributedString+Category 13-42-36-048.m in Sources */ = {isa = PBXBuildFile; fileRef = 36841F28202431E100874413 /* NSMutableAttributedString+Category 13-42-36-048.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -39,6 +40,8 @@
 /* Begin PBXFileReference section */
 		0CADF91FE6065B8CD436B281 /* TXJAllTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TXJAllTools.podspec; path = ../TXJAllTools.podspec; sourceTree = "<group>"; };
 		1B57DDE8586258710E9DC169 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		36841F28202431E100874413 /* NSMutableAttributedString+Category 13-42-36-048.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Category 13-42-36-048.m"; sourceTree = "<group>"; };
+		36841F29202431E100874413 /* NSMutableAttributedString+Category 13-42-36-035.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Category 13-42-36-035.h"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TXJAllTools_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TXJAllTools_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -132,6 +135,8 @@
 		6003F593195388D20070C39A /* Example for TXJAllTools */ = {
 			isa = PBXGroup;
 			children = (
+				36841F29202431E100874413 /* NSMutableAttributedString+Category 13-42-36-035.h */,
+				36841F28202431E100874413 /* NSMutableAttributedString+Category 13-42-36-048.m */,
 				6003F59C195388D20070C39A /* TXJAppDelegate.h */,
 				6003F59D195388D20070C39A /* TXJAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -410,6 +415,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* TXJAppDelegate.m in Sources */,
+				36841F2A202431E100874413 /* NSMutableAttributedString+Category 13-42-36-048.m in Sources */,
 				6003F5A7195388D20070C39A /* TXJViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
