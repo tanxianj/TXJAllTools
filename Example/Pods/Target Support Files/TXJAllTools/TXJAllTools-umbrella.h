@@ -21,7 +21,7 @@
 #import "NSArray+ZXPUnicode.h"
 #import "NSDictionary+ZXPUnicode.h"
 #import "NSObject+ZXPUnicode.h"
-
+#import "ZPScreenAdaptation.h"
 FOUNDATION_EXPORT double TXJAllToolsVersionNumber;
 FOUNDATION_EXPORT const unsigned char TXJAllToolsVersionString[];
 
