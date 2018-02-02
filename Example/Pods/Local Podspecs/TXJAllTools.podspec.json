@@ -1,6 +1,6 @@
 {
   "name": "TXJAllTools",
-  "version": "0.1.10",
+  "version": "0.1.21",
   "summary": "this is TPZOther",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/tanxianj/TXJAllTools",
@@ -13,10 +13,15 @@
   },
   "source": {
     "git": "https://github.com/tanxianj/TXJAllTools.git",
-    "tag": "0.1.10"
+    "tag": "0.1.21"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "TXJAllTools/Classes/**/*"
+  "source_files": "TXJAllTools/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
+  }
 }

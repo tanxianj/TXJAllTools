@@ -1,6 +1,22 @@
 PODS:
+  - AFNetworking (3.2.0):
+    - AFNetworking/NSURLSession (= 3.2.0)
+    - AFNetworking/Reachability (= 3.2.0)
+    - AFNetworking/Security (= 3.2.0)
+    - AFNetworking/Serialization (= 3.2.0)
+    - AFNetworking/UIKit (= 3.2.0)
+  - AFNetworking/NSURLSession (3.2.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.0)
+  - AFNetworking/Security (3.2.0)
+  - AFNetworking/Serialization (3.2.0)
+  - AFNetworking/UIKit (3.2.0):
+    - AFNetworking/NSURLSession
   - FLEX (2.4.0)
-  - TXJAllTools (0.1.10)
+  - TXJAllTools (0.1.21):
+    - AFNetworking
 
 DEPENDENCIES:
   - FLEX (~> 2.4.0)
@@ -11,8 +27,9 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
+  AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
   FLEX: bd1a39e55b56bb413b6f1b34b3c10a0dc44ef079
-  TXJAllTools: 8f887a542fb5528b1cdfe46d11759a29a2b7e6ca
+  TXJAllTools: efddb56e1dee4f33ba39a43afb89a22abd7e9339
 
 PODFILE CHECKSUM: 8fbf3138d55798872c3d0a2a3029ff90e2799861
 

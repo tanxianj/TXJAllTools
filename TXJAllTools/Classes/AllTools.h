@@ -15,5 +15,6 @@
 //#import "ZJImageMagnification.h"
 #import "ViewRadioTool.h"
 #import "SFLabel.h"
+
 #endif /* AllTools_h */
 

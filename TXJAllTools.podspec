@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TXJAllTools'
-  s.version          = '0.1.20'
+  s.version          = '0.1.21'
   s.summary          = 'this is TPZOther'
 
 # This description is used to generate tags and improve search results.
@@ -38,7 +38,7 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # s.dependency 'AFNetworking'
   # s.dependency 'FLEX', '~> 2.4.0'
   # s.dependency 'SDCycleScrollView', '~> 1.73'
   # s.dependency 'MJExtension', '~> 3.0.13'
