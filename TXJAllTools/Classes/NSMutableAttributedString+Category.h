@@ -10,7 +10,7 @@
 @interface NSMutableAttributedString (Category)
 
 /**
- 返回
+设置富文本的行间距。字间距
 
  @param string 需要传入的字符
  @param lineSpacing 行高

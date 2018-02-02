@@ -12,7 +12,7 @@
     NSMutableAttributedString * attributedString = [[NSMutableAttributedString alloc] initWithString:string attributes:nil];
     
     NSMutableParagraphStyle * paragraphStyle = [[NSMutableParagraphStyle alloc] init];
-    paragraphStyle.alignment = alignment;//字体居中还是怎么滴
+//    paragraphStyle.alignment = alignment;//字体居中还是怎么滴
     [paragraphStyle setLineSpacing:lineSpacing];//行间距
     paragraphStyle.paragraphSpacing = paragraphSpacing;//段落间距
     [attributedString addAttribute:NSParagraphStyleAttributeName value:paragraphStyle range:NSMakeRange(0, 10)];
