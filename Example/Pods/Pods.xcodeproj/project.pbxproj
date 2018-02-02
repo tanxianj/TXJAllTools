@@ -41,8 +41,16 @@
 		34ECEA031DAA76F8768BDC50F7BFD898 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
 		35B515DE786E6FAB61B73D7A24513C06 /* FLEXNetworkTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = DABD90EBAA38E87270415AF2719E4D8A /* FLEXNetworkTransaction.m */; };
 		35FA1829D104AB76E8F758E0843CAA20 /* FLEXArgumentInputStructView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD80E9ACC5032C82EFE5F7A21D10EF6E /* FLEXArgumentInputStructView.m */; };
+		360D2E20202171AE0061A4ED /* ViewRadioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 360D2E1E202171AE0061A4ED /* ViewRadioTool.m */; };
+		360D2E21202171AE0061A4ED /* ViewRadioTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 360D2E1F202171AE0061A4ED /* ViewRadioTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36841F232024113E00874413 /* SFLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36841F212024113E00874413 /* SFLabel.m */; };
+		36841F242024113E00874413 /* SFLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 36841F222024113E00874413 /* SFLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36E1F8E8201EB22700227FA9 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = 36E1F8E6201EB22700227FA9 /* UIColor+Hex.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		36E1F8E9201EB22700227FA9 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E1F8E7201EB22700227FA9 /* UIColor+Hex.m */; };
+		36E1F8EC201EB70D00227FA9 /* ZJImageMagnification.h in Headers */ = {isa = PBXBuildFile; fileRef = 36E1F8EA201EB70D00227FA9 /* ZJImageMagnification.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36E1F8ED201EB70D00227FA9 /* ZJImageMagnification.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E1F8EB201EB70D00227FA9 /* ZJImageMagnification.m */; };
+		36E1F912201F0EA700227FA9 /* NSMutableAttributedString+Category.h in Headers */ = {isa = PBXBuildFile; fileRef = 36E1F910201F0EA700227FA9 /* NSMutableAttributedString+Category.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36E1F913201F0EA700227FA9 /* NSMutableAttributedString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E1F911201F0EA700227FA9 /* NSMutableAttributedString+Category.m */; };
 		3776EE2EF487756CFC5DB63D31CCE110 /* FLEXExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 379B457E9259A1268EA37882F2BE8582 /* FLEXExplorerViewController.m */; };
 		38DC925D5C7278EBEA92CE5E7F95DAE8 /* FLEXKeyboardHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E993D017F9CBDC8F767030499960B7 /* FLEXKeyboardHelpViewController.m */; };
 		3A28A53F16DC11AE5AD778ADC8B25CC0 /* FLEXMethodCallingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0819ADF02F2A490DE875A1A9732CF063 /* FLEXMethodCallingViewController.m */; };
@@ -240,8 +248,16 @@
 		2EE82438BD131E5BCC5C634EC9E4E5DA /* FLEXSetExplorerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXSetExplorerViewController.h; path = Classes/ObjectExplorers/FLEXSetExplorerViewController.h; sourceTree = "<group>"; };
 		34A36C8902348EB349F21F4DDA90A3FB /* FLEXNetworkRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXNetworkRecorder.m; path = Classes/Network/FLEXNetworkRecorder.m; sourceTree = "<group>"; };
 		36087160E24DF012C54FBAAB26D696CB /* FLEXMultilineTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXMultilineTableViewCell.h; path = Classes/Utility/FLEXMultilineTableViewCell.h; sourceTree = "<group>"; };
+		360D2E1E202171AE0061A4ED /* ViewRadioTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewRadioTool.m; path = TXJAllTools/Classes/ViewRadioTool.m; sourceTree = "<group>"; };
+		360D2E1F202171AE0061A4ED /* ViewRadioTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewRadioTool.h; path = TXJAllTools/Classes/ViewRadioTool.h; sourceTree = "<group>"; };
+		36841F212024113E00874413 /* SFLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFLabel.m; path = TXJAllTools/Classes/SFLabel.m; sourceTree = "<group>"; };
+		36841F222024113E00874413 /* SFLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFLabel.h; path = TXJAllTools/Classes/SFLabel.h; sourceTree = "<group>"; };
 		36E1F8E6201EB22700227FA9 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Hex.h"; path = "TXJAllTools/Classes/UIColor+Hex.h"; sourceTree = "<group>"; };
 		36E1F8E7201EB22700227FA9 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "TXJAllTools/Classes/UIColor+Hex.m"; sourceTree = "<group>"; };
+		36E1F8EA201EB70D00227FA9 /* ZJImageMagnification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJImageMagnification.h; sourceTree = "<group>"; };
+		36E1F8EB201EB70D00227FA9 /* ZJImageMagnification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJImageMagnification.m; sourceTree = "<group>"; };
+		36E1F910201F0EA700227FA9 /* NSMutableAttributedString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableAttributedString+Category.h"; path = "TXJAllTools/Classes/NSMutableAttributedString+Category.h"; sourceTree = "<group>"; };
+		36E1F911201F0EA700227FA9 /* NSMutableAttributedString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableAttributedString+Category.m"; path = "TXJAllTools/Classes/NSMutableAttributedString+Category.m"; sourceTree = "<group>"; };
 		373711300DC7FA70FA0738E5ED26381D /* Pods-TXJAllTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TXJAllTools_Tests-umbrella.h"; sourceTree = "<group>"; };
 		379B457E9259A1268EA37882F2BE8582 /* FLEXExplorerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXExplorerViewController.m; path = Classes/ExplorerInterface/FLEXExplorerViewController.m; sourceTree = "<group>"; };
 		39F53D3FA6E416A8B9FE7BB6F7EBDECA /* FLEXArgumentInputViewFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXArgumentInputViewFactory.m; path = Classes/Editing/ArgumentInputViews/FLEXArgumentInputViewFactory.m; sourceTree = "<group>"; };
@@ -703,9 +719,17 @@
 		8C6F7ED2C6604B2EA07601CA41892BA1 /* TXJAllTools */ = {
 			isa = PBXGroup;
 			children = (
+				FB62C695B61D68220D8D5FDE0CDA8A56 /* AllTools.h */,
+				36841F222024113E00874413 /* SFLabel.h */,
+				36841F212024113E00874413 /* SFLabel.m */,
+				360D2E1F202171AE0061A4ED /* ViewRadioTool.h */,
+				360D2E1E202171AE0061A4ED /* ViewRadioTool.m */,
+				36E1F8EA201EB70D00227FA9 /* ZJImageMagnification.h */,
+				36E1F8EB201EB70D00227FA9 /* ZJImageMagnification.m */,
+				36E1F910201F0EA700227FA9 /* NSMutableAttributedString+Category.h */,
+				36E1F911201F0EA700227FA9 /* NSMutableAttributedString+Category.m */,
 				36E1F8E6201EB22700227FA9 /* UIColor+Hex.h */,
 				36E1F8E7201EB22700227FA9 /* UIColor+Hex.m */,
-				FB62C695B61D68220D8D5FDE0CDA8A56 /* AllTools.h */,
 				765E00952E61AD673EB3D95F11226C8C /* ButtonTool.h */,
 				D4198647209151233D730E950AD4456F /* ButtonTool.m */,
 				B7BADA1B5E069BA28CF006038E6C9CF5 /* UILableTool.h */,
@@ -866,12 +890,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				910229891A3BB15C7681B59742EAE21F /* AllTools.h in Headers */,
+				36841F242024113E00874413 /* SFLabel.h in Headers */,
 				FC31342F589E12789E59F10E2AA88821 /* ButtonTool.h in Headers */,
 				E8EF953F2B3A47DBDEB67B96F644B0E8 /* TXJAllTools-umbrella.h in Headers */,
 				36E1F8E8201EB22700227FA9 /* UIColor+Hex.h in Headers */,
+				36E1F8EC201EB70D00227FA9 /* ZJImageMagnification.h in Headers */,
 				CCCD0DFACFF29DB8A977EED4A95A766B /* UIButton+button.h in Headers */,
+				36E1F912201F0EA700227FA9 /* NSMutableAttributedString+Category.h in Headers */,
 				710BA7CFDFFDB375E1590A7916A0FDDD /* UILabel+NewLab.h in Headers */,
 				970A89FA48457DB2D2BDEFEC5C26596B /* UILableTool.h in Headers */,
+				360D2E21202171AE0061A4ED /* ViewRadioTool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1091,10 +1119,14 @@
 			files = (
 				251DD02D3D472E05DD9042A927B1E2B5 /* ButtonTool.m in Sources */,
 				36E1F8E9201EB22700227FA9 /* UIColor+Hex.m in Sources */,
+				36E1F913201F0EA700227FA9 /* NSMutableAttributedString+Category.m in Sources */,
+				36E1F8ED201EB70D00227FA9 /* ZJImageMagnification.m in Sources */,
 				4A9FD5C9DFFF31F4038DECD14E9CD4AA /* TXJAllTools-dummy.m in Sources */,
 				9ACBF6F3A5AAE086EF7A713CF4F24F5B /* UIButton+button.m in Sources */,
 				D875D87196604F821CDFC609236E7920 /* UILabel+NewLab.m in Sources */,
+				36841F232024113E00874413 /* SFLabel.m in Sources */,
 				68E7FC3516915AF88F704D8766033D63 /* UILableTool.m in Sources */,
+				360D2E20202171AE0061A4ED /* ViewRadioTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

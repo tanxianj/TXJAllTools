@@ -8,7 +8,9 @@
 
 #import "TXJViewController.h"
 #import <TXJAllTools/AllTools.h>
-@interface TXJViewController ()
+@interface TXJViewController (){
+    
+}
 
 @end
 
@@ -23,6 +25,7 @@
     btn.frame = CGRectMake(20,100 ,self.view.bounds.size.width-40, 44);
     [btn buttonGradient:@[[UIColor redColor],[UIColor blueColor]] buttonCGSize:btn.bounds.size ByGradientType:TXJDirectionTypeLeft2Right cornerRadius:YES];
     [self.view addSubview:btn];
+
 }
 
 -(void)didReceiveMemoryWarning
