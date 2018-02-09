@@ -17,7 +17,6 @@
 #import "UIColor+Hex.h"
 #import "UILabel+NewLab.h"
 #import "UILableTool.h"
-#import "ViewRadioTool.h"
 #import "NSArray+ZXPUnicode.h"
 #import "NSDictionary+ZXPUnicode.h"
 #import "NSObject+ZXPUnicode.h"
