@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TXJAllTools'
-  s.version          = '0.1.26'
-  s.summary          = 'this is TPZOther'
+  s.version          = '0.1.27'
+  s.summary          = 'this is TP'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
