@@ -21,13 +21,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    UIButton *btn = [UIButton buttonWithTitle:@"这是个测试" buttonTitleFontSize:14.0 buttonTitleColor:[UIColor colorWithHexString:@"F85753"] buttonBgColor:nil buttonTextAlignment:NSTextAlignmentCenter];
+    UIButton *btn = [UIButton buttonWithTitle:@"这是个测试" buttonTitleFontSize:14.0 buttonTitleColor:[UIColor colorWithHexString:@"F85753"] buttonBgColor:[UIColor redColor] buttonTextAlignment:NSTextAlignmentCenter];
     
     btn.frame = CGRectMake(20,100 ,self.view.bounds.size.width-40, 44);
-    [btn buttonGradient:@[[UIColor redColor],[UIColor blueColor]] buttonCGSize:btn.bounds.size ByGradientType:TXJDirectionTypeLeft2Right cornerRadius:YES];
+//    [btn buttonGradient:@[[UIColor redColor],[UIColor blueColor]] buttonCGSize:btn.bounds.size ByGradientType:TXJDirectionTypeLeft2Right cornerRadius:YES];
     [self.view addSubview:btn];
     
-    
+    [btn addRoundedCorners:UIRectCornerTopLeft|UIRectCornerTopRight withRadii:CGSizeMake(22, 22)];
 
 }
 
