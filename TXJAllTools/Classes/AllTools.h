@@ -18,6 +18,6 @@
 #import "NSDictionary+ZXPUnicode.h"
 #import "NSObject+ZXPUnicode.h"
 #import "ZPScreenAdaptation.h"
-#import "UIView+LSCore.h"
+//#import "UIView+LSCore.h"
 #endif /* AllTools_h */
 

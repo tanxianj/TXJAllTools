@@ -43,8 +43,6 @@
 		34ECEA031DAA76F8768BDC50F7BFD898 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE59B0D97841C2542CA3D20540685C26 /* Foundation.framework */; };
 		35B515DE786E6FAB61B73D7A24513C06 /* FLEXNetworkTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = DABD90EBAA38E87270415AF2719E4D8A /* FLEXNetworkTransaction.m */; };
 		35FA1829D104AB76E8F758E0843CAA20 /* FLEXArgumentInputStructView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD80E9ACC5032C82EFE5F7A21D10EF6E /* FLEXArgumentInputStructView.m */; };
-		3649CB58202D4488009F4C46 /* UIView+LSCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 3649CB55202D4482009F4C46 /* UIView+LSCore.m */; };
-		3649CB59202D448D009F4C46 /* UIView+LSCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 3649CB54202D4482009F4C46 /* UIView+LSCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		366C282A2024687E00925B49 /* ZPScreenAdaptation.h in Headers */ = {isa = PBXBuildFile; fileRef = 366C28292024687D00925B49 /* ZPScreenAdaptation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3776EE2EF487756CFC5DB63D31CCE110 /* FLEXExplorerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 379B457E9259A1268EA37882F2BE8582 /* FLEXExplorerViewController.m */; };
 		38DC925D5C7278EBEA92CE5E7F95DAE8 /* FLEXKeyboardHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1E993D017F9CBDC8F767030499960B7 /* FLEXKeyboardHelpViewController.m */; };
@@ -254,8 +252,6 @@
 		34A36C8902348EB349F21F4DDA90A3FB /* FLEXNetworkRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXNetworkRecorder.m; path = Classes/Network/FLEXNetworkRecorder.m; sourceTree = "<group>"; };
 		35D736C2D814ED7C616049C31A7BE801 /* UIColor+Hex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Hex.m"; path = "TXJAllTools/Classes/UIColor+Hex.m"; sourceTree = "<group>"; };
 		36087160E24DF012C54FBAAB26D696CB /* FLEXMultilineTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLEXMultilineTableViewCell.h; path = Classes/Utility/FLEXMultilineTableViewCell.h; sourceTree = "<group>"; };
-		3649CB54202D4482009F4C46 /* UIView+LSCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+LSCore.h"; path = "TXJAllTools/Classes/UIView+LSCore.h"; sourceTree = "<group>"; };
-		3649CB55202D4482009F4C46 /* UIView+LSCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+LSCore.m"; path = "TXJAllTools/Classes/UIView+LSCore.m"; sourceTree = "<group>"; };
 		366C28292024687D00925B49 /* ZPScreenAdaptation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZPScreenAdaptation.h; path = "../../第三方相关/电池信息/ZPScreenAdaptation.h"; sourceTree = "<group>"; };
 		373711300DC7FA70FA0738E5ED26381D /* Pods-TXJAllTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TXJAllTools_Tests-umbrella.h"; sourceTree = "<group>"; };
 		379B457E9259A1268EA37882F2BE8582 /* FLEXExplorerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLEXExplorerViewController.m; path = Classes/ExplorerInterface/FLEXExplorerViewController.m; sourceTree = "<group>"; };
@@ -755,8 +751,6 @@
 			children = (
 				0B2AB667E3AE8FF362B0EF624B0E851B /* AllTools.h */,
 				366C28292024687D00925B49 /* ZPScreenAdaptation.h */,
-				3649CB54202D4482009F4C46 /* UIView+LSCore.h */,
-				3649CB55202D4482009F4C46 /* UIView+LSCore.m */,
 				0B9556777293695BDFDE6858925C5031 /* ButtonTool.h */,
 				C64005EFCE38F70AC3E4E57CBC8F27EA /* ButtonTool.m */,
 				D7F00D3E9C837409B0612E7276831EF6 /* SFLabel.h */,
@@ -831,7 +825,6 @@
 				3AAD5B53696951251156F796471BB3ED /* UIColor+Hex.h in Headers */,
 				33E42567E8D36B5135AD5E62EBE4AAD5 /* UILabel+NewLab.h in Headers */,
 				9492DD20DBDA336176BEA8EA96247ADB /* UILableTool.h in Headers */,
-				3649CB59202D448D009F4C46 /* UIView+LSCore.h in Headers */,
 				366C282A2024687E00925B49 /* ZPScreenAdaptation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1143,7 +1136,6 @@
 				6375BBFD69F1AC1EC6E4B71A57C20BE8 /* NSObject+ZXPUnicode.m in Sources */,
 				7183C2A805092CDCCED26518A75244CC /* SFLabel.m in Sources */,
 				77F5CA59EB23C623476DF4B1BD466298 /* TXJAllTools-dummy.m in Sources */,
-				3649CB58202D4488009F4C46 /* UIView+LSCore.m in Sources */,
 				E41CC1ECFE9ABEE4EA1F58976B49C382 /* UIButton+button.m in Sources */,
 				519FB0ABF3D8D40C86DCC3A796D8D02B /* UIColor+Hex.m in Sources */,
 				31F5943933779F486ECE5924B524A0B9 /* UILabel+NewLab.m in Sources */,
