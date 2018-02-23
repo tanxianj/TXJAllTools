@@ -9,6 +9,8 @@
 #import "TXJViewController.h"
 #import <TXJAllTools/AllTools.h>
 #import <TXJAllTools/TXJAllTools-umbrella.h>
+
+
 @interface TXJViewController (){
     
 }
@@ -28,7 +30,7 @@
     [self.view addSubview:btn];
 //    
     [btn addRoundedCorners:UIRectCornerTopLeft|UIRectCornerTopRight withRadii:CGSizeMake(22, 22)];
-
+    
 }
 
 -(void)didReceiveMemoryWarning
