@@ -31,6 +31,7 @@ TXJAllTools is available under the MIT license. See the LICENSE file for more in
 ## Other framework
 
 ```
+    inhibit_all_warnings! 隐藏所有pod警告
     pod 'AFNetwork', '~> 0.1.0'
     #pod 'SDWebImage', '~> 4.1.0'
     pod 'SDCycleScrollView', '~> 1.73'
