@@ -36,7 +36,7 @@ TXJAllTools is available under the MIT license. See the LICENSE file for more in
     #pod 'SDWebImage', '~> 4.1.0'
     pod 'SDCycleScrollView', '~> 1.73'
     pod 'MJExtension', '~> 3.0.13'
-    pod 'MLTransition', '~> 2.1.3'
+    pod 'FDFullscreenPopGesture'
     pod 'MJRefresh', '~> 3.1.12'
     #pod 'MBProgressHUD', '~> 1.0.0'
     #pod 'YJProgressHUD', '~> 1.0.4'
@@ -45,7 +45,10 @@ TXJAllTools is available under the MIT license. See the LICENSE file for more in
     pod 'JPFPSStatus', '~> 0.1.1'
     pod 'Masonry'
     pod 'TZImagePickerController', '~> 1.9.3'
-    pod 'FDFullscreenPopGesture'
+    pod 'IQKeyboardManager'
+    pod 'YYText'
+    pod 'GBDeviceInfo'
+    
 
 ```
 ## 格式
