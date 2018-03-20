@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		007B1FD813D4DC3C7EE23987 /* Pods_TXJAllTools_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBB36E6E65E5ADFF7BCFF89 /* Pods_TXJAllTools_Example.framework */; };
 		36841F2A202431E100874413 /* NSMutableAttributedString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 36841F28202431E100874413 /* NSMutableAttributedString+Category.m */; };
+		36E617E72060BBC400706CA9 /* UIDevice+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E617E62060BBC400706CA9 /* UIDevice+Category.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -42,6 +43,8 @@
 		1B57DDE8586258710E9DC169 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		36841F28202431E100874413 /* NSMutableAttributedString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Category.m"; sourceTree = "<group>"; };
 		36841F29202431E100874413 /* NSMutableAttributedString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Category.h"; sourceTree = "<group>"; };
+		36E617E52060BBC400706CA9 /* UIDevice+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Category.h"; sourceTree = "<group>"; };
+		36E617E62060BBC400706CA9 /* UIDevice+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Category.m"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TXJAllTools_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TXJAllTools_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -145,6 +148,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				36E617E52060BBC400706CA9 /* UIDevice+Category.h */,
+				36E617E62060BBC400706CA9 /* UIDevice+Category.m */,
 			);
 			name = "Example for TXJAllTools";
 			path = TXJAllTools;
@@ -417,6 +422,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* TXJAppDelegate.m in Sources */,
+				36E617E72060BBC400706CA9 /* UIDevice+Category.m in Sources */,
 				36841F2A202431E100874413 /* NSMutableAttributedString+Category.m in Sources */,
 				6003F5A7195388D20070C39A /* TXJViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
