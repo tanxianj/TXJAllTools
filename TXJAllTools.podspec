@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TXJAllTools'
   s.version          = '0.1.39'
-  s.summary          = 'this is TPZ'Z
+  s.summary          = 'this is TPZ'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
