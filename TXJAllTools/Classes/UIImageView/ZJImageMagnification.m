@@ -84,7 +84,14 @@ static UIScrollView *scrolView;
     
     [bgView addSubview:scrolView];
     
-    UILabel *numberlab = [UILabel LableInitWith:@"1/5" LabFontSize:14.0 textColor:[UIColor whiteColor] textAlignment:NSTextAlignmentCenter];
+//    UILabel *numberlab = [UILabel LableInitWith:@"1/5" LabFontSize:14.0 textColor:[UIColor whiteColor] textAlignment:NSTextAlignmentCenter];
+    UILabel *numberlab = [[UILabel alloc]init];
+    numberlab.text = @"1/5";
+    numberlab.font = [UIFont systemFontOfSize:14.0];
+    numberlab.textColor = [UIColor whiteColor];
+    numberlab.textAlignment = NSTextAlignmentLeft;
+    
+    
     numberlab.frame = CGRectMake(0, 0, Width, 40);
     [bgView addSubview:numberlab];
     for (int i = 0; i< imgArray.count; i++) {
