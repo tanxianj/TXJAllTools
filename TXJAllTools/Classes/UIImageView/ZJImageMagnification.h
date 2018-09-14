@@ -1,6 +1,6 @@
 //
 //  ZJImageMagnification.h
-//  第三方相关
+//  
 //
 //  Created by bang on 2018/1/25.
 //  Copyright © 2018年 MAc. All rights reserved.
@@ -18,5 +18,5 @@
  */
 +(void)scanBigImageWithImageView:(UIImageView *)currentImageview alpha:(CGFloat)alpha;
 
++(void)scanBigImageWithImageViewArray:(NSArray *)imgArray indexImage:(NSInteger )integer alpha:(CGFloat)alpha;
 @end
-
