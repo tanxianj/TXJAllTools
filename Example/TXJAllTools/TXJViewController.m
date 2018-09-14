@@ -7,7 +7,7 @@
 //
 
 #import "TXJViewController.h"
-#import <TXJAllTools/AllTools.h>
+//#import <TXJAllTools/AllTools.h>
 #import <TXJAllTools/TXJAllTools-umbrella.h>
 
 
@@ -31,6 +31,14 @@
 //    
     [btn addRoundedCorners:UIRectCornerTopLeft|UIRectCornerTopRight withRadii:CGSizeMake(22, 22)];
     
+    [UIViewController getCurrentVC].navigationItem.leftBarButtonItem = [self setupNavigationItemWithLeft:NO imageName:nil title:@"返回" callBack:^{
+        DeBuGLog(@"返回");
+    }];
+    self.navigationItem.rightBarButtonItem = [self setupNavigationItemWithLeft:YES imageName:nil title:@"前进" callBack:^{
+        DeBuGLog(@"前进");
+    }];
+    
+    DeBuGLog(@"aa");
 }
 
 -(void)didReceiveMemoryWarning

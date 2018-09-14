@@ -7,7 +7,6 @@
 //
 
 #import "TXJAppDelegate.h"
-
 @implementation TXJAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

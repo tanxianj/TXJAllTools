@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		007B1FD813D4DC3C7EE23987 /* Pods_TXJAllTools_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEBB36E6E65E5ADFF7BCFF89 /* Pods_TXJAllTools_Example.framework */; };
 		36841F2A202431E100874413 /* NSMutableAttributedString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 36841F28202431E100874413 /* NSMutableAttributedString+Category.m */; };
-		36E617E72060BBC400706CA9 /* UIDevice+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E617E62060BBC400706CA9 /* UIDevice+Category.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -25,6 +24,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		96150BC0214B896100E1563D /* UIWindow+Motion.m in Sources */ = {isa = PBXBuildFile; fileRef = 96150BBF214B896100E1563D /* UIWindow+Motion.m */; };
+		96150BC3214B896900E1563D /* UIDevice+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 96150BC1214B896800E1563D /* UIDevice+Category.m */; };
 		CC0B5BDEECE812C0CC2B70AB /* Pods_TXJAllTools_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B9AC575B6FF408BC41988E2 /* Pods_TXJAllTools_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,12 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CADF91FE6065B8CD436B281 /* TXJAllTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TXJAllTools.podspec; path = ../TXJAllTools.podspec; sourceTree = "<group>"; };
+		0CADF91FE6065B8CD436B281 /* TXJAllTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TXJAllTools.podspec; path = ../TXJAllTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1B57DDE8586258710E9DC169 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		36841F28202431E100874413 /* NSMutableAttributedString+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+Category.m"; sourceTree = "<group>"; };
 		36841F29202431E100874413 /* NSMutableAttributedString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+Category.h"; sourceTree = "<group>"; };
-		36E617E52060BBC400706CA9 /* UIDevice+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Category.h"; sourceTree = "<group>"; };
-		36E617E62060BBC400706CA9 /* UIDevice+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Category.m"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TXJAllTools_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TXJAllTools_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -71,6 +70,10 @@
 		84014FC8E199C956AD389BD2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B9AC575B6FF408BC41988E2 /* Pods_TXJAllTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TXJAllTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96150BBE214B896000E1563D /* UIWindow+Motion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Motion.h"; sourceTree = "<group>"; };
+		96150BBF214B896100E1563D /* UIWindow+Motion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Motion.m"; sourceTree = "<group>"; };
+		96150BC1214B896800E1563D /* UIDevice+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Category.m"; sourceTree = "<group>"; };
+		96150BC2214B896900E1563D /* UIDevice+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Category.h"; sourceTree = "<group>"; };
 		CEBB36E6E65E5ADFF7BCFF89 /* Pods_TXJAllTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TXJAllTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDD0865A347BF5B6B56A0788 /* Pods-TXJAllTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TXJAllTools_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TXJAllTools_Tests/Pods-TXJAllTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,6 +143,8 @@
 			children = (
 				36841F29202431E100874413 /* NSMutableAttributedString+Category.h */,
 				36841F28202431E100874413 /* NSMutableAttributedString+Category.m */,
+				96150BBC214B895600E1563D /* UIDevice */,
+				96150BBD214B895600E1563D /* UIWindow */,
 				6003F59C195388D20070C39A /* TXJAppDelegate.h */,
 				6003F59D195388D20070C39A /* TXJAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -148,8 +153,6 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
-				36E617E52060BBC400706CA9 /* UIDevice+Category.h */,
-				36E617E62060BBC400706CA9 /* UIDevice+Category.m */,
 			);
 			name = "Example for TXJAllTools";
 			path = TXJAllTools;
@@ -206,6 +209,24 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		96150BBC214B895600E1563D /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				96150BC2214B896900E1563D /* UIDevice+Category.h */,
+				96150BC1214B896800E1563D /* UIDevice+Category.m */,
+			);
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
+		96150BBD214B895600E1563D /* UIWindow */ = {
+			isa = PBXGroup;
+			children = (
+				96150BBE214B896000E1563D /* UIWindow+Motion.h */,
+				96150BBF214B896100E1563D /* UIWindow+Motion.m */,
+			);
+			path = UIWindow;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -218,7 +239,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				8E113F1EAC3D69EE7E5850F6 /* [CP] Embed Pods Frameworks */,
-				3F57022389947E867AACAC22 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,7 +258,6 @@
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
 				C97460CF888FD4512946615E /* [CP] Embed Pods Frameworks */,
-				8EEC11D7611C925BE3E162CC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,7 +276,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = TXJ;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = tanxianj;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
@@ -328,21 +347,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3F57022389947E867AACAC22 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TXJAllTools_Example/Pods-TXJAllTools_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		8E113F1EAC3D69EE7E5850F6 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -350,30 +354,19 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TXJAllTools_Example/Pods-TXJAllTools_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FLEX/FLEX.framework",
+				"${BUILT_PRODUCTS_DIR}/GBDeviceInfo/GBDeviceInfo.framework",
 				"${BUILT_PRODUCTS_DIR}/TXJAllTools/TXJAllTools.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLEX.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GBDeviceInfo.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TXJAllTools.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TXJAllTools_Example/Pods-TXJAllTools_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8EEC11D7611C925BE3E162CC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TXJAllTools_Tests/Pods-TXJAllTools_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C97460CF888FD4512946615E /* [CP] Embed Pods Frameworks */ = {
@@ -383,12 +376,10 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-TXJAllTools_Tests/Pods-TXJAllTools_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FLEX/FLEX.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLEX.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,11 +412,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96150BC3214B896900E1563D /* UIDevice+Category.m in Sources */,
 				6003F59E195388D20070C39A /* TXJAppDelegate.m in Sources */,
-				36E617E72060BBC400706CA9 /* UIDevice+Category.m in Sources */,
 				36841F2A202431E100874413 /* NSMutableAttributedString+Category.m in Sources */,
 				6003F5A7195388D20070C39A /* TXJViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				96150BC0214B896100E1563D /* UIWindow+Motion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,12 +479,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -538,12 +532,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
