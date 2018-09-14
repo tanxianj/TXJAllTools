@@ -135,8 +135,8 @@ static UIScrollView *scrolView;
 
 
 -(void)scrollViewDidScroll:(UIScrollView*)scrollView{
-    XJLog(@"%f",scrollView.contentOffset.x);
-    
+//    XJLog(@"%f",scrollView.contentOffset.x);
+
 }
 /**
  *  恢复imageView原始尺寸
