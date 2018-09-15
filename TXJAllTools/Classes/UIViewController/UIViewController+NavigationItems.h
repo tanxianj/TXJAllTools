@@ -9,17 +9,20 @@
 #import <UIKit/UIKit.h>
 
 #import "Button.h"
-
+typedef NS_OPTIONS(NSUInteger, NavLeftOrRight) {
+    Left = 1 << 0,
+    Right = 1 << 1,
+};
 @interface UIViewController (NavigationItems)
 
 - (void) barButtonItemAction:(Button *)button;
 
-- (UIBarButtonItem *)setupNavigationItemWithLeft:(BOOL) leftOrRight
+- (UIBarButtonItem *)setupNavigationItemWithLeft:(NavLeftOrRight) leftOrRight
                                        imageName:(NSString *)imageName
                                            title:(NSString *)title
                                         callBack:(ButtonBlock)buttonBlock;
 
-- (UIBarButtonItem *)setupNavigationItemWithLeft:(BOOL) leftOrRight
+- (UIBarButtonItem *)setupNavigationItemWithLeft:(NavLeftOrRight) leftOrRight
                                        imageName:(NSString *)imageName
                                            title:(NSString *)title
                                       titleColor:(UIColor *)titleColor

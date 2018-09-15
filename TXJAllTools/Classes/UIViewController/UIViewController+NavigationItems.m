@@ -11,11 +11,11 @@
 
 @implementation UIViewController (NavigationItems)
 
-- (UIBarButtonItem *)setupNavigationItemWithLeft:(BOOL)leftOrRight imageName:(NSString *)imageName title:(NSString *)title callBack:(ButtonBlock)buttonBlock{
+- (UIBarButtonItem *)setupNavigationItemWithLeft:(NavLeftOrRight)leftOrRight imageName:(NSString *)imageName title:(NSString *)title callBack:(ButtonBlock)buttonBlock{
     return [self setupNavigationItemWithLeft:leftOrRight imageName:imageName title:title titleColor:[UIColor blackColor] callBack:buttonBlock];
 }
 
-- (UIBarButtonItem *)setupNavigationItemWithLeft:(BOOL) leftOrRight
+- (UIBarButtonItem *)setupNavigationItemWithLeft:(NavLeftOrRight) leftOrRight
                                        imageName:(NSString *)imageName
                                            title:(NSString *)title
                                       titleColor:(UIColor *)titleColor
