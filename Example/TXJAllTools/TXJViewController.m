@@ -30,11 +30,27 @@
     [self.view addSubview:btn];
 //    
     [btn addRoundedCorners:UIRectCornerTopLeft|UIRectCornerTopRight withRadii:CGSizeMake(22, 22)];
+    Button *button = [Button buttonWithType:UIButtonTypeCustom];
     
-    [UIViewController getCurrentVC].navigationItem.leftBarButtonItem = [self setupNavigationItemWithLeft:NO imageName:nil title:@"返回" callBack:^{
+    button.frame = CGRectMake(0, 0, 64, 44);
+    [button setTitle:@"返回"
+            forState:UIControlStateNormal];
+    button.titleLabel.font = [UIFont systemFontOfSize:15];
+    [button setTitleColor:[UIColor redColor]
+                 forState:UIControlStateNormal];
+    
+    button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+    if (@available(iOS 11.0, *)){
+        button.contentEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 10);
+    }else{
+        button.contentEdgeInsets = UIEdgeInsetsMake(0, 0, 0, -4);
+    }
+     UIBarButtonItem *item = [[UIBarButtonItem alloc]initWithCustomView:button];
+//    self.navigationItem.leftBarButtonItem = item;
+    self.navigationItem.leftBarButtonItem = [self setupNavigationItemWithLeft:Left imageName:@"icon_nav_back" title:nil callBack:^{
         DeBuGLog(@"返回");
     }];
-    self.navigationItem.rightBarButtonItem = [self setupNavigationItemWithLeft:YES imageName:nil title:@"前进" callBack:^{
+    self.navigationItem.rightBarButtonItem = [self setupNavigationItemWithLeft:Right imageName:nil title:@"前进" callBack:^{
         DeBuGLog(@"前进");
     }];
     

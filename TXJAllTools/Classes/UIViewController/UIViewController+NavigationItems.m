@@ -7,7 +7,7 @@
 //
 
 #import "UIViewController+NavigationItems.h"
-//#import "ReactiveObjC.h"
+//#import <ReactiveObjC/ReactiveObjC.h>
 
 @implementation UIViewController (NavigationItems)
 
@@ -35,44 +35,54 @@
         button.titleLabel.font = [UIFont systemFontOfSize:15];
         [button setTitleColor:titleColor
                      forState:UIControlStateNormal];
-        if (leftOrRight) {
-//            button.frame = CGRectMake(0, 0, 60, 44);
-            button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentRight;
-            if (@available(iOS 11.0, *)){
-                button.contentEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 10);
-            }else{
-                button.contentEdgeInsets = UIEdgeInsetsMake(0, 0, 0, -4);
-            }
-        }
-        else {
-            button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
-            if (@available(iOS 11.0, *)){
-                button.contentEdgeInsets = UIEdgeInsetsMake(0, 10, 0, 0);
-            }else{
-                button.contentEdgeInsets = UIEdgeInsetsMake(0, -4, 0, 0);
-
-            }
+        
+        switch (leftOrRight) {
+            case Left:
+                button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+                if (@available(iOS 11.0, *)){
+                    
+                    button.contentEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 10);
+                }else{
+                    button.contentEdgeInsets = UIEdgeInsetsMake(0, 0, 0, -4);
+                }
+                break;
+            case Right:
+                button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentRight;
+                if (@available(iOS 11.0, *)){
+                    button.contentEdgeInsets = UIEdgeInsetsMake(0, 10, 0, 0);
+                }else{
+                    button.contentEdgeInsets = UIEdgeInsetsMake(0, -4, 0, 0);
+                }
+                break;
+            default:
+                break;
         }
     }
     if (imageName && [imageName isKindOfClass:[NSString class]]) {
         [button setImage:[UIImage imageNamed:imageName]
                 forState:UIControlStateNormal];
-        if (leftOrRight) {
-            button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentRight;
-            if (@available(iOS 11.0, *)){
-                button.contentEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 10);
-            }else{
-                button.contentEdgeInsets = UIEdgeInsetsMake(0, 0, 0, -4);
-            }
+        
+        switch (leftOrRight) {
+            case Left:
+                button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+                if (@available(iOS 11.0, *)){
+                    button.contentEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 10);
+                }else{
+                    button.contentEdgeInsets = UIEdgeInsetsMake(0, 0, 0, -4);
+                }
+                break;
+            case Right:
+                button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentRight;
+                if (@available(iOS 11.0, *)){
+                    button.contentEdgeInsets = UIEdgeInsetsMake(0, 10, 0, 0);
+                }else{
+                    button.contentEdgeInsets = UIEdgeInsetsMake(0, -4, 0, 0);
+                }
+                break;
+            default:
+                break;
         }
-        else {
-            button.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
-            if (@available(iOS 11.0, *)){
-                button.contentEdgeInsets = UIEdgeInsetsMake(0, 10, 0, 0);
-            }else{
-                button.contentEdgeInsets = UIEdgeInsetsMake(0, -4, 0, 0);
-            }
-        }
+    
     }
     if (buttonBlock) {
         button.buttonBlock = buttonBlock;

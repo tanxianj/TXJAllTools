@@ -1,6 +1,6 @@
 {
   "name": "TXJAllTools",
-  "version": "0.1.40",
+  "version": "0.1.45",
   "summary": "this is TPZ",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/tanxianj/TXJAllTools",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/tanxianj/TXJAllTools.git",
-    "tag": "0.1.40"
+    "tag": "0.1.45"
   },
   "platforms": {
     "ios": "8.0"
