@@ -33,7 +33,7 @@
     Button *button = [Button buttonWithType:UIButtonTypeCustom];
     
     button.frame = CGRectMake(0, 0, 64, 44);
-    [button setTitle:@"返回"
+    [button setTitle:@"返回" 
             forState:UIControlStateNormal];
     button.titleLabel.font = [UIFont systemFontOfSize:15];
     [button setTitleColor:[UIColor redColor]
