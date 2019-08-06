@@ -5,7 +5,7 @@ PODS:
   - GBDeviceInfo/Core (5.2.0)
   - Masonry (1.1.0)
   - ReactiveObjC (3.1.0)
-  - TXJAllTools (0.1.45)
+  - TXJAllTools (0.1.46)
 
 DEPENDENCIES:
   - FLEX (~> 2.4.0)
@@ -30,7 +30,7 @@ SPEC CHECKSUMS:
   GBDeviceInfo: 2c65ceb9404f9079264d4c238f5b81916fdfc5e2
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   ReactiveObjC: 2a38ea15335de4119d8b17caf1db1484f61db902
-  TXJAllTools: 24261ececd06f9f44b5ab03f73bfb2f0354641ed
+  TXJAllTools: c2b22d18226e631e3f6b5fe0c0153eaaf5b53c2a
 
 PODFILE CHECKSUM: beae9a5589c2310a20a8c8cb5badfc873efb3c09
 
